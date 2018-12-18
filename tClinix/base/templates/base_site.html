@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
       {% endblock meta %}
-      <title>eNMS | {% block title %}{% endblock %}</title>
+      <title>tClinix | {% block title %}{% endblock %}</title>
       {% block stylesheets %}
         <!-- Bootstrap -->
         <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
         <!-- Bootstrap  datetimepicker -->
-        <link href="{{ url_for('static', filename='bootstrap-datetimepicker/bootstrap-datetimepicker.min.css') }}" 
+        <link href="{{ url_for('static', filename='bootstrap-datetimepicker/bootstrap-datetimepicker.min.css') }}"
         <!-- Font Awesome -->
         <link href="{{ url_for('static', filename='font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
         <!-- NProgress -->
@@ -23,8 +23,8 @@
         <!-- Alertify -->
         <link href="{{ url_for('static', filename='alertifyjs/css/alertify.min.css') }}" rel="stylesheet">
         <link href="{{ url_for('static', filename='alertifyjs/css/custom.alertify.css') }}" rel="stylesheet">
-        <!-- eNMS -->
-        <link href="{{ url_for('static', filename='enms/enms.min.css') }}" rel="stylesheet">
+        <!-- tClinix -->
+        <link href="{{ url_for('static', filename='tclinix/tclinix.min.css') }}" rel="stylesheet">
       {% endblock stylesheets %}
 
     {% endblock head %}
@@ -77,7 +77,7 @@
       {% endblock %}
       <!-- eNMS -->
       <script src="{{ url_for('static', filename='enms/enms.js') }}"></script>
-      
+
     {% endblock body %}
   </body>
 </html>

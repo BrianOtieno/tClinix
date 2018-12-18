@@ -19,7 +19,7 @@ class CreateAccountForm(FlaskForm):
     name = TextField('Username')
     email = TextField('Email')
     password = PasswordField('Password')
- 
+
 
 class AddUser(FlaskForm):
     name = TextField('Username')
