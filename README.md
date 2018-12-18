@@ -7,6 +7,10 @@ The records entered are pulled back to the participant's dashboard.
 
 
 ### Database
-This project uses PostgreSQL.
+TBA
 
 ### Set-up
+TBA
+
+### Documentation
+TBA
